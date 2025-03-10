@@ -40,9 +40,10 @@ A simple **Student Registration System** built using **Python** and **SQLite**, 
 │    ├── student_repo.py  # Data Access
 │── /Tests                # Unit Tests
 │    ├── tests.py
-│── main.py               # Entry Point
 │── README.md             # project Documentation
-│── .gitignore            # Hide some cache, secret files and keys
+│── StudentRegistration.db# Since there is just the seed data(no sensetive), you can take it & have a trial
+│── .gitignore            # Hide some cache, secret files and keys 
+│── main.py               # Entry Point
 ```
 
 ---
