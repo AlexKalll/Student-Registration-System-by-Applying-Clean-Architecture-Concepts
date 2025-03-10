@@ -1,5 +1,3 @@
-
-
 # Student Registration System 
 ### (Applying Clean Architecture Concepts)
 
@@ -9,10 +7,10 @@ A simple **Student Registration System** built using **Python** and **SQLite**, 
 ## 🏛️ Clean Architecture Overview
 | **Layer**                  | **Role** |
 |----------------------------|---------|
-| **Entity (Domain Layer)**   | Defines the `Student` entity. |
-| **UseCase (Application Layer)** | Handles business logic (e.g., student registration, updates). |
+| **Entity (Domain Layer)**   | Defines the business logic (e.g. the `Student` entity. |
+| **UseCase (Application Layer)** | Handles Specific tasks (e.g., student registration, updates and deletion). |
 | **Interface (Presentation Layer)** | CLI-based interface for user interaction. |
-| **Data (Infrastructure Layer)** | Handles SQLite database operations using the Repository Pattern. |
+| **Data (Infrastructure Layer)** |Database, Handles SQLite database operations using the Repository Pattern. |
 
 - Generally, Clean Architecture is a software design philosophy that separates the structure of an application into distinct layers, promoting independence and making the system easier to maintain, test, and scale.
 ---
@@ -48,7 +46,6 @@ A simple **Student Registration System** built using **Python** and **SQLite**, 
 ```
 
 ---
-
 ## 🔨 Technologies Used
 - **Python 3**
 - **SQLite (Relational Database)**
@@ -61,12 +58,15 @@ A simple **Student Registration System** built using **Python** and **SQLite**, 
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/student-registration.git
-cd student-registration
+git clone https://github.com/AlexKalll/Student-Registration-System-by-Applying-Clean-Architecture-Concepts.git
+cd Student-Registration-System-by-Applying-Clean-Architecture-Concepts
+```
+### 2️⃣ Navigate to the directory
+```bash
+cd Student-Registration-System-by-Applying-Clean-Architecture-Concepts
 ```
 
-### 2️⃣ Install Dependencies  
-This project uses **only built-in Python libraries**, so no extra dependencies are required.
+N.B: This project uses **only built-in Python libraries**, so no extra dependencies are required.
 
 ### 3️⃣ Run the Application  
 ```bash
